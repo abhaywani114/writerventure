@@ -5,8 +5,8 @@ define("limit_msg",5);
 require_once __DIR__.'/../PHPMailer/class.phpmailer.php';
 class writer extends PHPMailer
 {
-	private $database_name = 'innercal_writerVenture';
-	private $database_username = 'innercal_school';
+	private $database_name = 'serenewriters';
+	private $database_username = 'serenewriters';
 	private $servername = "localhost";
 	public $conn = null;
 
@@ -31,7 +31,7 @@ class writer extends PHPMailer
 		
 
 		date_default_timezone_set('Asia/Kolkata');
-		$this->conn = mysqli_connect($this->servername, $this->database_username, '01955233282', $this->database_name);
+		$this->conn = mysqli_connect($this->servername, $this->database_username, 'pwd', $this->database_name);
         
 		if (mysqli_connect_errno()) {
 			echo "Failed to connect to MySQL: " . mysqli_connect_error();
@@ -47,16 +47,16 @@ class writer extends PHPMailer
         
         	if ($this->do_mail != null) {
 			$this->do_mail->IsSMTP();
-			$this->do_mail->Host = 'smtp.zoho.com';
+			$this->do_mail->Host = 'smtp.zoho.in';
 			// Enable this option to see deep debug info
 		//	$this->do_mail->SMTPDebug = 4;
-			$this->do_mail->SMTPSecure = 'ssl';
-			$this->do_mail->Port = '465';
+			$this->do_mail->SMTPSecure = 'tls';
+			$this->do_mail->Port = '587';
 			$this->do_mail->SMTPAuth = true;
-			$this->do_mail->Username = 'support@writerventure.com';
-			$this->do_mail->Password = '01955233282@xX';
-			$this->do_mail->From = "support@writerventure.com";
-			$this->do_mail->FromName = "Writer Venture";
+			$this->do_mail->Username = 'support@network-venture.com';
+			$this->do_mail->Password = 'jq8xbK8KHQei';
+			$this->do_mail->From = "support@network-venture.com";
+			$this->do_mail->FromName = "Serene Writers";
             
 		}
 	}
@@ -162,8 +162,8 @@ class writer extends PHPMailer
     return -1;
    }
    
-   $msg2 = $this->mail2("Welcome to Writer Venture",<<<EOD
-We welcolcome you to the family of Writer Venture. We are happy to have you and we would love to share ypur writings on our website. Please start publishing now.
+   $msg2 = $this->mail2("Welcome to Serene Writers",<<<EOD
+We welcolcome you to the family of Serene Writers. We are happy to have you and we would love to share ypur writings on our website. Please start publishing now.
 Thank you!         
 EOD
 ,$input_email, 'User',"support@writerventure.com","Support");  
@@ -500,7 +500,7 @@ EOD
        $msg2 = $this->mail2("We recieved your report",<<<EOD
 Thanks for writing to us. We are working on your report. You will be notified soon!
 with regards
-Team Writer Venture
+Team Serene Writers
 EOD
 ,$input_email, $input_name,"mail@volunteerventure.com","Admin");
         
