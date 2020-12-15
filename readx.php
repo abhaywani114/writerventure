@@ -30,9 +30,9 @@ foreach ($user_data as $data) {
     }
 }
 $page_global = array(
-"page_title"=>"$title - Writer Venture",
+"page_title"=>"$title - Serene Writers",
 "page_description"=>"$desp",
-"page_image"=> "http://writerventure.com/upload/$image",
+"page_image"=> "http://serenewriters.com/upload/$image",
 "page_keyword"=>"$cat"
 );
 include __DIR__.'/parts/head.php';
@@ -137,7 +137,7 @@ this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your pag
 */
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
-s.src = 'https://http-www-writerventure-com.disqus.com/embed.js';
+s.src = 'https://http-www-serenewriters-com.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();

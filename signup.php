@@ -19,10 +19,10 @@ exit();
 }
 }
 $page_global = array(
-"page_title"=>"Sign-Up - Writer Venture",
-"page_description"=>"Are you a writer? Then you must be part of Writer Venture to share your write-ups with rest of world. Please sign up here.!",
+"page_title"=>"Sign-Up - Serene Writers",
+"page_description"=>"Are you a writer? Then you must be part of Serene Writers to share your write-ups with rest of world. Please sign up here.!",
 "page_image"=> URL."files/login.png",
-"page_keyword"=>"Sign up,writer venture, new user,goto dashboard"
+"page_keyword"=>"Sign up,Serene Writers, new user,goto dashboard"
 );
 
 include __DIR__.'/parts/head.php';

@@ -31,8 +31,8 @@ RedirectMatch 403 ^/dashboard_/([^/]*)$
         Header set Cache-Control "max-age=604800"
     </FilesMatch>
 </IfModule>
-RewriteCond %{HTTP_HOST} ^writerventure\.com$
+RewriteCond %{HTTP_HOST} ^serenewriters\.com$
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^/?$ "http\:\/\/www\.writerventure\.com\/" [R=301,L]
+RewriteRule ^/?$ "http\:\/\/www\.serenewriters\.com\/" [R=301,L]
 

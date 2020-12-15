@@ -1,9 +1,9 @@
 <?php
 $page_global = array(
-"page_title"=>"Discover - Writer Venture",
+"page_title"=>"Discover - Serene Writers",
 "page_description"=>"Discover latest writing that you want to head or hear from your favourit authour. Just type in the catagory and start to read",
 "page_image"=> "/files/logo.png",
-"page_keyword"=>"Sign up,writer venture, new user"
+"page_keyword"=>"Sign up,Serene Writers, new user"
 );
 include __DIR__.'/parts/service.php';
 include __DIR__.'/parts/function.php';

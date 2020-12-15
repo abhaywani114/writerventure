@@ -15,10 +15,10 @@ exit();
  
 } 
 $page_global = array(
-"page_title"=>"Login - Writer Venture",
+"page_title"=>"Login - Serene Writers",
 "page_description"=>"In order to publish your writeups you need to login. Please feed us with your username and password!",
 "page_image"=> URL."files/login.png",
-"page_keyword"=>"Login,writer venture, goto dashboard"
+"page_keyword"=>"Login,Serene Writers, goto dashboard"
 );
 
 include __DIR__.'/parts/head.php';

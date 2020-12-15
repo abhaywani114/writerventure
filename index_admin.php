@@ -1,5 +1,5 @@
 <?php
-$page_global = array("title" => "Writer Venture:Dashboard", "description" => null);
+$page_global = array("title" => "Serene Writers:Dashboard", "description" => null);
 if (!isset($_GET['view'])) {
     header("Location: /");
     exit();

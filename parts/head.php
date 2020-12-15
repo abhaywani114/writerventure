@@ -37,10 +37,10 @@ echo <<<EOD
 
 EOD;
 } else {
-    echo "<title>Writer Venture</title>";
+    echo "<title>Serene Writers</title>";
 }
     
-    ?>
+   ?>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119135561-2"></script>
@@ -174,7 +174,7 @@ menu_li('Home','/');
 if ($admin->user != -1) {
 menu_li('Latest Feed','/categories/Feed');
 }
-menu_li('Discover','/discover');
+menu_li('Discover','/discover.php');
 menu_li('Article','/categories/Article');
 menu_li('Stories','/categories/Story');
 menu_li('Poems','/categories/Poem');

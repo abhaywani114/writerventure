@@ -13,7 +13,7 @@ $login = <<< EOD
 <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
 
 
-<div style="padding: 40px;text-align:center"><h1>Login</h1><h2>Writer Venture!</h2><div>
+<div style="padding: 40px;text-align:center"><h1>Login</h1><h2>Serene Writers!</h2><div>
 <form action="/admin_x.php" method='post'>
   <div class="imgcontainer">
     <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" class="avatar">
@@ -186,7 +186,7 @@ if (isset($_GET['action'])) {
 <script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>
 
 
-<div style="padding: 40px;text-align:center"><h1>Admin Panel</h1><h2>Writer Venture!</h2>
+<div style="padding: 40px;text-align:center"><h1>Admin Panel</h1><h2>Serene Writers!</h2>
 <?php
 if (isset($msg)) {
     echo $msg;

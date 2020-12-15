@@ -1,10 +1,10 @@
 <?php
-define("URL_","http://www.writerventure.com/");
+define("URL_","http://www.serenewriters.com/");
 $page_global = array(
-"page_title"=>"About Us -Writer Venture",
-"page_description"=>"Writer Venture is an inspiration for the writers including story tellers and poets. Learn who are behind Writer Venture.",
+"page_title"=>"About Us -Serene Writers",
+"page_description"=>"Serene Writers is an inspiration for the writers including story tellers and poets. Learn who are behind Serene Writers.",
 "page_image"=> URL_ ."files/social.png",
-"page_keyword"=>"Sign up,writer venture, new user,goto dashboard"
+"page_keyword"=>"Sign up,Serene Writers, new user,goto dashboard"
 );
 include __DIR__.'/../parts/head.php';
 ?>
@@ -21,13 +21,13 @@ include __DIR__.'/../parts/head.php';
 	<div class="entry-content clearfix">
 		<div class="col-sm-12">
 			<p class="selectionShareable" style="text-align: justify !important;">
-          Everyone has a story to tell. But not all are able to pen it down. A few get succeed in it. Many try but fail to execute things, due to the lack of exposure and opportunities. There is no need to get disheartened. Believe in yourself. Proud on yourself. Writer Venture believes in you and is proud on you. Talents differ. Write! Yes, you can write. We will publish your work. Writer Venture is a Kashmir based online-publisher which gives common people an opportunity to share their literary work with rest of the world. Opportunity comes but rare. Make it count. We really care for you and recognise your talent.<br/>
-You can instantly start to publish your works but sign up at our website. We have messagning and following feature. So on Writer Venture you can make your own network. We support freedom of speach!<br/>
+          Everyone has a story to tell. But not all are able to pen it down. A few get succeed in it. Many try but fail to execute things, due to the lack of exposure and opportunities. There is no need to get disheartened. Believe in yourself. Proud on yourself. Serene Writers believes in you and is proud on you. Talents differ. Write! Yes, you can write. We will publish your work. Serene Writers is a Kashmir based online-publisher which gives common people an opportunity to share their literary work with rest of the world. Opportunity comes but rare. Make it count. We really care for you and recognise your talent.<br/>
+You can instantly start to publish your works but sign up at our website. We have messagning and following feature. So on Serene Writers you can make your own network. We support freedom of speach!<br/>
 Best of Luck!
            </p>
            <p class="selectionShareable" style="text-align: right !important;"><b>Reach us at:</b><br />
            <span class="fa fa-map"></span> Khan Arcade - 2nd Floor, Jawaharnagar Srinagar<br/>
-<span class="fa fa-envelope-square"></span>support@writerventure.com</p><br />
+<span class="fa fa-envelope-square"></span>support@serenewriters.com</p><br />
            
 
            

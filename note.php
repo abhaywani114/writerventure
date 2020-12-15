@@ -1,7 +1,7 @@
 <?php
 include __DIR__.'/parts/service.php';
 $page_global = array(
-"page_title"=>"Update - Writer Venture",
+"page_title"=>"Update - Serene Writers",
 "page_description"=>"This page deals with internal errors! <nofllow>",
 "page_image"=> URL ."files/logo.png",
 "page_keyword"=>"Error Occured"
@@ -19,7 +19,7 @@ if (isset($_REQUEST['msg'])) {
     } else if ($msg == 'pub') {
         $color = "Green";
         $msg_1 = "Published Successfully";
-        $msg_2 = "Congratulations your write up had been published on Writer Venture. All the best!";  
+        $msg_2 = "Congratulations your write up had been published on Serene Writers. All the best!";  
     } else if ($msg == 'article_not_found') {
         $color = "Red";
         $msg_1 = "Write-up Not Found";

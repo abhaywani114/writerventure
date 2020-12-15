@@ -25,10 +25,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 } 
 $page_global = array(
-"page_title"=>"Forget Password - Writer Venture",
+"page_title"=>"Forget Password - Serene Writers",
 "page_description"=>"In order to publish your writeups you need to login. Please feed us with your username and password!",
 "page_image"=> URL."files/login.png",
-"page_keyword"=>"Login,writer venture, goto dashboard"
+"page_keyword"=>"Login,Serene Writers, goto dashboard"
 );
 
 include __DIR__.'/parts/head.php';

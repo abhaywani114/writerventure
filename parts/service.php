@@ -1,5 +1,5 @@
 <?php
-define("URL","http://writerventure.com/");
+define("URL","http://serenewriters.com/");
 define("limit",10);
 define("limit_msg",5);
 require_once __DIR__.'/../PHPMailer/class.phpmailer.php';
@@ -16,7 +16,7 @@ class writer extends PHPMailer
 
 	public $textlocal = null;
 
-	public $email = "support@writerventure.com";
+	public $email = "support@serenewriters.com";
 
 	public $do_mail = null;
 
@@ -166,7 +166,7 @@ class writer extends PHPMailer
 We welcolcome you to the family of Serene Writers. We are happy to have you and we would love to share ypur writings on our website. Please start publishing now.
 Thank you!         
 EOD
-,$input_email, 'User',"support@writerventure.com","Support");  
+,$input_email, 'User',"support@serenewriters.com","Support");  
     return 1;
    } 
     
@@ -468,7 +468,7 @@ EOD
         return null;
        }
         $handle = $this->get_val("write_up","handle","`url`='$url'");
-       $this->notify($handle,"Some one reported your write-up: http://writerventure.com/read/$url. E-mail following!");
+       $this->notify($handle,"Some one reported your write-up: http://serenewriters.com/read/$url. E-mail following!");
        //report EMail CHeck
         $new_val = $is_exist + 1;
        $val = $this->get_val('report','status',"`url`='$url'");
@@ -558,10 +558,10 @@ EOD
         }
         
         $msg2 = $this->mail2("Report Response",<<<EOD
-we have reviewed your report against: <a href="http://www.writerventure.com/read/$url">$url</a> and we found nothing which can voilate our community standard.
+we have reviewed your report against: <a href="http://www.serenewriters.com/read/$url">$url</a> and we found nothing which can voilate our community standard.
 Thank you!         
 EOD
-,$email, 'User',"support@writerventure.com","Support");   
+,$email, 'User',"support@serenewriters.com","Support");   
         return 1;
      }
      }
@@ -600,10 +600,10 @@ EOD
         }
         
         $msg2 = $this->mail2("Report Response",<<<EOD
-we have reviewed your report against: <a href="http://www.writerventure.com/read/$url">$url</a> and we found it voilating our community standard. We have taken it down.
+we have reviewed your report against: <a href="http://www.serenewriters.com/read/$url">$url</a> and we found it voilating our community standard. We have taken it down.
 Thank you!         
 EOD
-,$email, 'User',"support@writerventure.com","Support");   
+,$email, 'User',"support@serenewriters.com","Support");   
         return 1;
      }       
     }   
@@ -623,7 +623,7 @@ EOD
             $this->conn->rollback();
             return null;
           }
-          $this->notify($handle,"Hay <a href=http://www.writerventure.com/author/$this->user><strong>$this->user</strong></a> started to following you" );
+          $this->notify($handle,"Hay <a href=http://www.serenewriters.com/author/$this->user><strong>$this->user</strong></a> started to following you" );
         return 1;
     } 
     
@@ -663,10 +663,10 @@ EOD
             return null;
         }
          $msg2 = $this->mail2("Forget Password",<<<EOD
-we have reviewed your request to reset password. Please follow this link to reset password: <a href="http://www.writerventure.com/forget.php?new=1&val=$val">Forget Password</a>
+we have reviewed your request to reset password. Please follow this link to reset password: <a href="http://www.serenewriters.com/forget.php?new=1&val=$val">Forget Password</a>
 Thank you!         
 EOD
-,$email, 'User',"support@writerventure.com","Support");  
+,$email, 'User',"support@serenewriters.com","Support");  
 
     if ($msg2) {
         return 1;

@@ -5,10 +5,10 @@ if ($admin->user == -1) {
     header("Location: /note.php?msg=session_exp");
 }
 $page_global = array(
-"page_title"=>"Dashboard - Writer Venture",
-"page_description"=>"Are you a writer? Then you must be part of Writer Venture to share your write-ups with rest of world. Please sign up here.!",
+"page_title"=>"Dashboard - Serene Writers",
+"page_description"=>"Are you a writer? Then you must be part of Serene Writers to share your write-ups with rest of world. Please sign up here.!",
 "page_image"=> URL ."files/logo.png",
-"page_keyword"=>"Sign up,writer venture, new user,goto dashboard"
+"page_keyword"=>"Sign up,Serene Writers, new user,goto dashboard"
 );
 if (!isset($_GET['view'])) {
     header("Location: /");
