@@ -56,7 +56,7 @@ form_ul('uname',"Username (Do not use space, min 6)",'text');
 echo "<span id='status'></span>";
 form_ul('pwd',"Password",'password');  
 ?>
-<div class="g-recaptcha" data-sitekey="6LfKoWoUAAAAAOfulhe4pI31qLNuhO-fOhASpBRP"></div><br/>
+<div class="g-recaptcha" data-sitekey="6LdiBBAaAAAAAMgUvtqioSK63sKrOe9uLg5mV7a8"></div><br/>
 <input type="hidden" value="submit" name="submit" />
                     <div class="gform_footer top_label"> <input type="submit" id="gform_submit_button_1" class="gform_button button" value="Submit" tabindex="13" style="float:left"> <a href='/login.php' class='btn' style="float:right">Login</a></div>
                     </form>

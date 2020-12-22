@@ -205,7 +205,7 @@ EOD;
 } else {
 menu_li('Login','/login.php');
 }
-menu_li('About Us','/company/aboutus');
+//menu_li('About Us','/company/aboutus');
                     ?>
 
 </ul></div>						</nav><!-- #site-navigation -->

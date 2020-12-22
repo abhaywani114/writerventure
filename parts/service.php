@@ -751,7 +751,7 @@ return "/resizer.php?file=$url&quality=$q$w$h$ac";
 }
 function google_validate($receivedRecaptcha) {
 
-$google_secret =  "6LfKoWoUAAAAAEn9RkOLYM4htfEFi6GQl24vGL5Z";
+$google_secret =  "6LdiBBAaAAAAADYRCfjLEKG5Bm7G25EaaTCVjGKL";
 $verifiedRecaptchaUrl = 'https://www.google.com/recaptcha/api/siteverify?secret='.$google_secret.'&response='.$receivedRecaptcha;
 $handle = curl_init($verifiedRecaptchaUrl);
 curl_setopt($handle,  CURLOPT_RETURNTRANSFER, TRUE);
