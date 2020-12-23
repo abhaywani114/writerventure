@@ -9,14 +9,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
        if ($file) {
         $publish = $admin->publish($_REQUEST,$file);
        } else {
-        $publish = null;
+		   $publish = null;
+		   $msg = "Error: Image is required.";
        }
  if ($publish == 1) {
 echo "<script>window.location = '/note.php?msg=pub'</script>";
-exit();
+	exit();
 } else {
-     $msg = "Error: Some error occured!";
-    }
+     $msg = $msg ?? "Error: Some error occured!";
+ }
  
 }
 echo $text_area;
@@ -58,6 +59,7 @@ form_ul('img', "Image file (HD Req)", 'file');
     </article>
     </main></div>
     <script>
+	Simditor.locale = 'en-US';
     var editor = new Simditor({
   textarea: $('#input_write_up')
   //optional options
