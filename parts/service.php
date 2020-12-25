@@ -5,8 +5,8 @@ define("limit_msg",5);
 require_once __DIR__.'/../PHPMailer/class.phpmailer.php';
 class writer extends PHPMailer
 {
-	private $database_name = 'serenewriters';
-	private $database_username = 'serenewriters';
+	private $database_name = 'nvweb_serenew';
+	private $database_username = 'nvweb_serenew';
 	private $servername = "localhost";
 	public $conn = null;
 
@@ -31,7 +31,7 @@ class writer extends PHPMailer
 		
 
 		date_default_timezone_set('Asia/Kolkata');
-		$this->conn = mysqli_connect($this->servername, $this->database_username, 'pwd', $this->database_name);
+		$this->conn = mysqli_connect($this->servername, $this->database_username, '8dnvoE87sTWc', $this->database_name);
         
 		if (mysqli_connect_errno()) {
 			echo "Failed to connect to MySQL: " . mysqli_connect_error();
